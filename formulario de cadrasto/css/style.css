@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+ }
+
+ body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  white;
+
+ }
+ .container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px rgba(0,0,0, .212);
+
+ }
+ .form-image{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fde3a7d7;
+    padding: 1rem;
+ }
+
+.form-image img{
+    width: 31rem;
+}
+.form{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 3em;
+}
+.form-header{
+    margin-bottom: 4em;
+    justify-content: space-between;
+}
+.login-button{
+    flex: auto;
+   
+}
+
+ a.a{
+    
+    border: none;
+    padding: 5px ;
+    background-color: blue;
+ }
+
+
+
+a.a hover{
+ background-color: red;
+}
+
+ .form-header h1:after{
+    content: ('');
+    display: block;
+    width: 5px;
+    height: 0.3rem;
+    background-color: blueviolet;
+    margin: 0 auto;
+    position: absolute;
+
+ }
+
+
+
+  @media screen and (max-width:600px){
+    .form-imagen{
+        display: nome;
+
+    }
+    .container{
+        width: 50%;
+    }
+    .form{
+      width: 100%;
+    }
+  }
+
+  
+ 
